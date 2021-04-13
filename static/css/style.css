@@ -1,7 +1,23 @@
-div.salida{
+body{
+  background: grey;
+  text-align: center;
+}
+h1{
+  color: rgb(221, 70, 196);
+
+}
+div.cuadro{
   background: rgb(64, 236, 21);
-  margin-left: 50px;
-  margin-right: 200px;
+  margin-left: 10px;
+  margin-right: 30px;
   text-align: center;
   border: black 2px solid;
+}
+div button{
+  background: rgb(177, 22, 125);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
