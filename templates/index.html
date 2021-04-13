@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type=
+"text/javascript"></script>
+<script src="/static/js/index.js"></script>
+<!-- 
+	<link rel="stylesheet" href="../static/css/style.css">
+ -->
+<title>EMBEBIDOS</title>
+</head>
+
+
+<body>
+
+<h1>Monitoreo de sensores</h1>
+<!--  
+	<img src="/static/images/iot.png" alt="user">
+-->
+
+
+<!-- 
+	<h1>Sensor:</h1>
+	<div class="salida">
+		<h1 id="sensor">--</h1>
+	</div>
+	<h2>Estado de leds: </h2>
+	<input type="button" id="LED1" value="Ini..">
+	<input type="button" id="LED2" value="Ini.." onclick="LED2()">
+	
+	
+	<input type="button" id="LED1" onclick="LED1()" value="LED1">
+	<input type="button" id="LED2" onclick="LED2()" value="LED2">
+-->
+<br>
+<div>
+	<button id = 'LED1' type="button" onclick="estadoSensores1()">SENSOR 1</button>
+	<p id="sensor1">Inic..</p>
+</div>
+
+<br>
+--------------------------------
+<div>
+	<button id = 'LED2' type="button" onclick="estadoSensores2()">SENSOR 2</button>
+	<p id="sensor2">Inic..</p>
+</div>
+
+
+
+
+
+<script>
+/*
+function LED1_On() {
+	alert("led on");
+	console.log("led on");
+}
+function LED1_Off(){
+	alert("led off");
+	console.log("led off");
+}
+*/
+</script>
+</body>
+</html>
